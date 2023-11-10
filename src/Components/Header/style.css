@@ -1,0 +1,17 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(53, 52, 52) ;
+    padding: 20px 100px;
+    align-items: center;
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+
+.container-header input {
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rebeccapurple; 
+    background-color: rgb(226, 226, 226);
+}

@@ -1,4 +1,5 @@
 import Button from "../../Components/Button"
+import Header from "../../Components/Header"
 import Paragraph from "../../Components/Paragraph"
 import Subtitle from "../../Components/Subtitle"
 import Title from "../../Components/Title"
@@ -9,7 +10,7 @@ function Home (){
     return(
 
         <div className="container">
-
+            
         <Title titulo=" Heading SM"/>
         <Subtitle subtitulo="Subititle SM"/>
         <Paragraph body="Lorem ipsum, dolor sit amet consectetur adipisicing elit. E
