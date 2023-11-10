@@ -1,0 +1,16 @@
+/* styles.css */
+
+.botao {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 150px 0 0 0;
+}
+
+.botao:hover {
+    background-color: darkorange;
+}

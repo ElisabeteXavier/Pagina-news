@@ -1,9 +1,10 @@
-function Title (){
-    return(
-        <div>
-            <h1>Text</h1>
+import { TitleProps } from "./types"
+import "./style.css"
 
-        </div>
+function Title (props: TitleProps){
+    return(
+            <h1 className="titulo">{props.titulo}</h1>
+
     )
 }
 

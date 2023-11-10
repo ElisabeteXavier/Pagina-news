@@ -1,9 +1,11 @@
 import { ButtonProps } from "./types"
+import "./style.css";
+
 
 function Button(props: ButtonProps) {
     return (
 
-        <button>{props.titulo}</button>
+        <button className="botao">{props.nome}</button>
     )
 }
 

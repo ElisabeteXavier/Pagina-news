@@ -1,3 +1,3 @@
 export interface ButtonProps {
-    titulo: string;
+    nome: string;
 }
