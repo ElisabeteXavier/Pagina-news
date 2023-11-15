@@ -1,5 +1,6 @@
 export interface HomeProps{
     title: string;
-    autor: string;
+    author: string;
     description: string
+    url: string
 }

@@ -1,9 +1,11 @@
 import "./style.css"
+
 function Header() {
 
     return (
         <div className="container-header">
-            <h1>Logo</h1>
+          
+            <img src="/Imagens/Logo.jpg"></img>
             <input type="text" placeholder="Leonard"></input>
         </div>
     )

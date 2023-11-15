@@ -3,9 +3,14 @@ import "./style.css";
 
 
 function Button(props: ButtonProps) {
+    const handleButtonClick = () => {
+        window.location.href = props.link;
+      };
+    
+
     return (
 
-        <button className="botao">{props.nome}</button>
+        <button onClick={handleButtonClick} className="botao">{props.nome} </button>
     )
 }
 

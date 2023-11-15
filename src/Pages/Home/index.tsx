@@ -40,7 +40,7 @@ function Home() {
     return (
         <div className="container">
             {resultData?.map((item) => (
-                <CardContent titulo={item.title} subititulo="oi" paragrafo="tdvsfywegfyeeeeeeeeeeee" />
+                <CardContent  titulo={item.title} subititulo={item.author} paragrafo={item.description} url={item.url} />
 
             ))}
         </div>

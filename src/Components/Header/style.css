@@ -2,16 +2,20 @@
     display: flex;
     justify-content: space-between;
     background-color:rgb(53, 52, 52) ;
-    padding: 20px 100px;
+    padding: 30px 10%;
     align-items: center;
     margin-bottom: 10px;
     color: antiquewhite;
 }
 
 .container-header input {
-    height: 25px;
-    padding: 5px;
+    /* height: 25px; */
+    padding: 7px;
     border-radius: 5px;
     border: 1px solid rebeccapurple; 
-    background-color: rgb(226, 226, 226);
+    background-color: white;
+}
+.container-header img{
+    height:60px;
+    border-radius: 5px;
 }

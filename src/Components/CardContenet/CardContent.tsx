@@ -14,7 +14,7 @@ function CardContent(props: CardContentProps) {
             <Title titulo={props.titulo} />
             <Subtitle subtitulo={props.subititulo} />
             <Paragraph body={props.paragrafo} />
-            <Button nome="Button Label" />
+            <Button link={props.url} nome="Button Label" />
         </div>
     )
 
