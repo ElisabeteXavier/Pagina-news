@@ -8,6 +8,10 @@ import { HomeProps } from "./types";
 function Home() {
     //renomear a props depois
     const [resultData, setResultData] = useState<HomeProps[]>([]);
+    const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() - 1);
+
+const formattedDateYesterday = currentDate.toISOString().split('T')[0];
 
     async function HandleData() {
         try {
@@ -15,7 +19,7 @@ function Home() {
                 {
                     params: {
                         q: "tesla",
-                        from: "2023-11-07",
+                        from: formattedDateYesterday,
                         apiKey: "ceab2c91614d4c74a1121bb3d01a2437"
                     }
                 }
